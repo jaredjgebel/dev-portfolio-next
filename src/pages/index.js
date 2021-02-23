@@ -1,4 +1,4 @@
-import Hero from "../components/Hero";
+import Hero from "../components/hero/Hero";
 
 export async function getStaticProps() {
   const projects = (await import("../data/projects.json")).default;
