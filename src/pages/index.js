@@ -1,4 +1,4 @@
-import { Heading } from "@chakra-ui/react";
+import Hero from "../components/Hero";
 
 export async function getStaticProps() {
   const projects = (await import("../data/projects.json")).default;
@@ -10,12 +10,6 @@ export async function getStaticProps() {
   };
 }
 
-const Index = ({ projects }) => (
-  <>
-    {projects.map((project) => (
-      <Heading as="h2">{project.title}</Heading>
-    ))}
-  </>
-);
+const Index = ({ projects }) => <Hero />;
 
 export default Index;
