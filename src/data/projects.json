@@ -1,0 +1,125 @@
+[
+  {
+    "title": "YouTube Scrapbook",
+    "subtitle": "An application to view, save, and categorize YouTube videos. Includes note-taking feature.",
+    "technologies": [
+      {
+        "name": "React",
+        "link": "https://reactjs.org/"
+      },
+      {
+        "name": "MongoDB",
+        "link": "https://www.mongodb.com/"
+      },
+      {
+        "name": "Mongoose.js",
+        "link": "https://mongoosejs.com/"
+      },
+      {
+        "name": "Auth0",
+        "link": "https://auth0.com/"
+      },
+      {
+        "name": "React Query",
+        "link": "https://react-query.tanstack.com/"
+      },
+      {
+        "name": "Express",
+        "link": "https://expressjs.com/"
+      }
+    ],
+    "github": "https://github.com/jaredjgebel/youtube-scrapbook",
+    "projectHighlights": [
+      "Built Express API to serve data for application, including middleware to identify users and handle errors",
+      "Tested endpoints and Mongoose integration regarding create, read, update, and delete methods",
+      "Utilized Auth0 SDK to add user authentication to both front and back end",
+      "Integrated third-party components with own component system to structure application and apply consistent styles"
+    ],
+    "demos": []
+  },
+
+  {
+    "title": "Practice Jeopardy!",
+    "subtitle": "A React app to practice questions from the game show Jeopardy!",
+    "technologies": [
+      { "name": "React", "link": "https://reactjs.org/" },
+      { "name": "Chakra UI", "link": "https://chakra-ui.com/" },
+      { "name": "Next.js", "link": "https://nextjs.org/" },
+      { "name": "Framer Motion", "link": "https://www.framer.com/motion/" }
+    ],
+    "github": "https://github.com/jaredjgebel/practice-jeopardy",
+    "demos": [
+      "https://practice-jeopardy.herokuapp.com/",
+      "https://practice-jeopardy-next.vercel.app/"
+    ],
+    "projectHighlights": [
+      "Built twice in Next.js and Create React App frameworks to illustrate differences in React server and client rendering",
+      "Implemented component, style, and SVG icon libraries for a clear, consistent, and accessible design",
+      "Data served to application through NoSQL database or statically rendered via filesystem",
+      "Utilized libraries that handle animation, routing, and state management"
+    ]
+  },
+  {
+    "title": "'Djello' Project Management",
+    "subtitle": "Task manager for teams. Allows for assignment of team members to tasks, groups similar tasks together into boards and lists, and automatically tracks the history of each task.",
+    "technologies": [
+      { "name": "PostgreSQL", "link": "https://www.postgresql.org/" },
+      {
+        "name": "Express",
+        "link": "https://expressjs.com/"
+      },
+      { "name": "React", "link": "https://reactjs.org/" },
+      { "name": "Redux", "link": "https://redux.js.org/" },
+      { "name": "Webpack", "link": "https://webpack.js.org/" },
+      { "name": "Babel", "link": "https://babeljs.io/" },
+      { "name": "Auth0", "link": "https://auth0.com/" },
+      { "name": "Sequelize.js", "link": "http://docs.sequelizejs.com/" },
+      { "name": "Jasmine", "link": "https://jasmine.github.io/" }
+    ],
+    "github": "https://github.com/jaredjgebel/project_djello",
+    "projectHighlights": [
+      "Created and managed database environment, including models, seeders, and migrations, with PostgreSQL and Sequelize.js",
+      "Built Express.js REST API to serve application data from server",
+      "Composed reusable components in React for the creation of dynamic views",
+      "Used Redux to interact with API and manage application state, using best practices to ensure data immutability",
+      "Built with Webpack, using Babel to integrate ES6 and ES7 features",
+      "Authenticated application and API by integrating Auth0 service",
+      "Thorough testing of API and database methods with Jasmine"
+    ],
+    "demos": []
+  },
+  {
+    "title": "Art Slide Puzzles",
+    "subtitle": "A slide puzzle application, using React to display puzzle pieces as a given set of UI state.",
+    "technologies": [
+      { "name": "React", "link": "https://reactjs.org/" },
+      { "name": "Lodash", "link": "https://lodash.com/" },
+      { "name": "Jest", "link": "https://jestjs.io/" }
+    ],
+    "github": "https://github.com/jaredjgebel/art-slide-puzzle",
+    "demos": ["https://wizardly-meninsky-bce7ec.netlify.com/"],
+    "projectHighlights": [
+      "Created a coordinate system and methods for manipulating said coordinates by using 2D arrays to generate each given puzzle view",
+      "Utilized React’s Context API to persist state for puzzle and coordinates",
+      "Possible to extend app to create slide puzzles from any image"
+    ]
+  },
+  {
+    "title": "Find Your Representative",
+    "subtitle": "Allows a user to find information about their Congressional representatives by inputting their address. Includes contact information, social media, and recent vote history.",
+    "technologies": [
+      {
+        "name": "Express",
+        "link": "https://expressjs.com/"
+      },
+      { "name": "Handlebars.js", "link": "https://handlebarsjs.com" },
+      { "name": "Bootstrap", "link": "https://getbootstrap.com//" }
+    ],
+    "github": "https://github.com/jaredjgebel/project_what_have_you_done",
+    "projectHighlights": [
+      "Integrated information from three external APIs: Google Civics, US Github, and Propublica",
+      "Parsed API data using Express and utilized Mustache templates to display data for user"
+    ],
+    "demos": []
+  }
+]
