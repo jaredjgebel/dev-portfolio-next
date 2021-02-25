@@ -39,6 +39,32 @@
   },
 
   {
+    "title": "Harvard Art Museums API Explorer",
+    "subtitle": "Searches the Harvard Art Museums API for all kinds of art objects. Interfaces also allows users to browse through the collection.",
+    "technologies": [
+      { "name": "React", "link": "https://reactjs.org/" },
+      {
+        "name": "CSS Modules",
+        "link": "https://github.com/css-modules/css-modules"
+      },
+      { "name": "Express", "link": "https://expressjs.com/" }
+    ],
+    "github": "https://github.com/jaredjgebel/harvard-art-api-express",
+    "demos": [
+      {
+        "link": "https://harvard-art-api-explorer.herokuapp.com/",
+        "image": "/screenshots/harvard-art-explorer.png"
+      }
+    ],
+    "projectHighlights": [
+      "Built custom Express server to keep API key secure",
+      "Applied global and component-specific styles with CSS Modules",
+      "Created view layer with React to explore items and provide more information",
+      "Built custom hook that generalizes data fetching for components"
+    ]
+  },
+
+  {
     "title": "Practice Jeopardy!",
     "subtitle": "A React app to practice questions from the game show Jeopardy!",
     "technologies": [
@@ -49,8 +75,14 @@
     ],
     "github": "https://github.com/jaredjgebel/practice-jeopardy",
     "demos": [
-      "https://practice-jeopardy.herokuapp.com/",
-      "https://practice-jeopardy-next.vercel.app/"
+      {
+        "link": "https://practice-jeopardy.herokuapp.com/",
+        "image": "/screenshots/practice-jeopardy-screenshot.png"
+      },
+      {
+        "link": "https://practice-jeopardy-next.vercel.app/",
+        "image": "/screenshots/practice-jeopardy-next-screenshot.png"
+      }
     ],
     "projectHighlights": [
       "Built twice in Next.js and Create React App frameworks to illustrate differences in React server and client rendering",
@@ -97,29 +129,16 @@
       { "name": "Jest", "link": "https://jestjs.io/" }
     ],
     "github": "https://github.com/jaredjgebel/art-slide-puzzle",
-    "demos": ["https://wizardly-meninsky-bce7ec.netlify.com/"],
+    "demos": [
+      {
+        "link": "https://wizardly-meninsky-bce7ec.netlify.com/",
+        "image": "/screenshots/art-slide-puzzles-screenshot.png"
+      }
+    ],
     "projectHighlights": [
       "Created a coordinate system and methods for manipulating said coordinates by using 2D arrays to generate each given puzzle view",
       "Utilized React’s Context API to persist state for puzzle and coordinates",
       "Possible to extend app to create slide puzzles from any image"
     ]
-  },
-  {
-    "title": "Find Your Representative",
-    "subtitle": "Allows a user to find information about their Congressional representatives by inputting their address. Includes contact information, social media, and recent vote history.",
-    "technologies": [
-      {
-        "name": "Express",
-        "link": "https://expressjs.com/"
-      },
-      { "name": "Handlebars.js", "link": "https://handlebarsjs.com" },
-      { "name": "Bootstrap", "link": "https://getbootstrap.com//" }
-    ],
-    "github": "https://github.com/jaredjgebel/project_what_have_you_done",
-    "projectHighlights": [
-      "Integrated information from three external APIs: Google Civics, US Github, and Propublica",
-      "Parsed API data using Express and utilized Mustache templates to display data for user"
-    ],
-    "demos": []
   }
 ]
