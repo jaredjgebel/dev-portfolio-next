@@ -26,6 +26,8 @@ const Contact = () => (
     <Flex width={["20rem", "28rem"]} justifyContent="space-around">
       <Link href="mailto:jaredjgebel@gmail.com" isExternal>
         <IconButton
+          aria-label="Email"
+          name="Email Jared Gebel"
           size="lg"
           bgColor="green.700"
           colorScheme="green"
@@ -35,6 +37,8 @@ const Contact = () => (
 
       <Link href="https://github.com/jaredjgebel" isExternal>
         <IconButton
+          aria-label="Github"
+          name="Github for Jared Gebel"
           size="lg"
           isRound
           bgColor="green.700"
@@ -45,6 +49,8 @@ const Contact = () => (
 
       <Link href="https://www.linkedin.com/in/jaredjgebel/" isExternal>
         <IconButton
+          aria-label="LinkedIn"
+          name="LinkedIn for Jared Gebel"
           size="lg"
           bgColor="green.700"
           colorScheme="green"

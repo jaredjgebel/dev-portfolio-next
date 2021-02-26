@@ -88,7 +88,12 @@ const Project = ({ project }) => {
         )}
         <Flex justifyContent="center" mt={4}>
           <Link href={github} isExternal>
-            <IconButton size="lg" icon={<GithubIcon boxSize={12} />} />
+            <IconButton
+              aria-label={`Github`}
+              name={`Github for ${title}`}
+              size="lg"
+              icon={<GithubIcon boxSize={12} />}
+            />
           </Link>
         </Flex>
       </AccordionPanel>
