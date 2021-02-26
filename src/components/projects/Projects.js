@@ -1,4 +1,4 @@
-import { Accordion, Flex, Container } from "@chakra-ui/react";
+import { Accordion, Flex, Container, Box } from "@chakra-ui/react";
 
 import { HeaderTwo } from "../header/Headers";
 import Project from "./Project";
@@ -11,7 +11,7 @@ const Projects = ({ projects }) => (
     p={[4, 10, 10, 10]}
     backgroundColor="gray.100"
   >
-    <Container>
+    <Box paddingX={[null, "10%", "20%"]} minW={[null, null, null, 600]}>
       <HeaderTwo textAlign="center" py={8}>
         Projects
       </HeaderTwo>
@@ -23,7 +23,7 @@ const Projects = ({ projects }) => (
             ))}
         </Accordion>
       </Flex>
-    </Container>
+    </Box>
   </Flex>
 );
 

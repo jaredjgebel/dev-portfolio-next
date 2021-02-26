@@ -39,8 +39,35 @@
   },
 
   {
+    "title": "Practice Jeopardy!",
+    "subtitle": "A React app to practice questions from the game show Jeopardy!",
+    "technologies": [
+      { "name": "React", "link": "https://reactjs.org/" },
+      { "name": "Chakra UI", "link": "https://chakra-ui.com/" },
+      { "name": "Next.js", "link": "https://nextjs.org/" },
+      { "name": "Framer Motion", "link": "https://www.framer.com/motion/" }
+    ],
+    "github": "https://github.com/jaredjgebel/practice-jeopardy",
+    "demos": [
+      {
+        "link": "https://practice-jeopardy-next.vercel.app/",
+        "image": "/screenshots/practice-jeopardy-next-screenshot.png"
+      },
+      {
+        "link": "https://practice-jeopardy.herokuapp.com/",
+        "image": "/screenshots/practice-jeopardy-screenshot.png"
+      }
+    ],
+    "projectHighlights": [
+      "Built twice in Next.js and Create React App frameworks to illustrate differences in React server and client rendering",
+      "Implemented component, style, and SVG icon libraries for a clear, consistent, and accessible design",
+      "Data served to application through NoSQL database or statically rendered via filesystem",
+      "Utilized libraries that handle animation, routing, and state management"
+    ]
+  },
+  {
     "title": "Harvard Art Museums API Explorer",
-    "subtitle": "Searches the Harvard Art Museums API for all kinds of art objects. Interfaces also allows users to browse through the collection.",
+    "subtitle": "Searches the Harvard Art Museums API for all kinds of art objects. Interface also allows users to browse through the collection.",
     "technologies": [
       { "name": "React", "link": "https://reactjs.org/" },
       {
@@ -64,33 +91,6 @@
     ]
   },
 
-  {
-    "title": "Practice Jeopardy!",
-    "subtitle": "A React app to practice questions from the game show Jeopardy!",
-    "technologies": [
-      { "name": "React", "link": "https://reactjs.org/" },
-      { "name": "Chakra UI", "link": "https://chakra-ui.com/" },
-      { "name": "Next.js", "link": "https://nextjs.org/" },
-      { "name": "Framer Motion", "link": "https://www.framer.com/motion/" }
-    ],
-    "github": "https://github.com/jaredjgebel/practice-jeopardy",
-    "demos": [
-      {
-        "link": "https://practice-jeopardy.herokuapp.com/",
-        "image": "/screenshots/practice-jeopardy-screenshot.png"
-      },
-      {
-        "link": "https://practice-jeopardy-next.vercel.app/",
-        "image": "/screenshots/practice-jeopardy-next-screenshot.png"
-      }
-    ],
-    "projectHighlights": [
-      "Built twice in Next.js and Create React App frameworks to illustrate differences in React server and client rendering",
-      "Implemented component, style, and SVG icon libraries for a clear, consistent, and accessible design",
-      "Data served to application through NoSQL database or statically rendered via filesystem",
-      "Utilized libraries that handle animation, routing, and state management"
-    ]
-  },
   {
     "title": "'Djello' Project Management",
     "subtitle": "Task manager for teams. Allows for assignment of team members to tasks, groups similar tasks together into boards and lists, and automatically tracks the history of each task.",
