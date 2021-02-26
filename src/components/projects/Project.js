@@ -28,7 +28,7 @@ const Project = ({ project }) => {
     <AccordionItem>
       <h2>
         <AccordionButton flex="1" justifyContent="space-between">
-          <Heading as="h3" fontSize={["md", "md", "md", ""]}>
+          <Heading as="h3" fontSize={["md", "lg", "xl"]}>
             {title}
           </Heading>
           <AccordionIcon />

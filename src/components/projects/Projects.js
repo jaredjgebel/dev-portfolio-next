@@ -1,4 +1,4 @@
-import { Accordion, Flex, Container, Box } from "@chakra-ui/react";
+import { Accordion, Flex, Box } from "@chakra-ui/react";
 
 import { HeaderTwo } from "../header/Headers";
 import Project from "./Project";

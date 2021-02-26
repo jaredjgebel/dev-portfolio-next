@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const headingOneFontSizes = ["42px", "56px", "64px", "80px"];
 const headingTwoFontSizes = ["28px", "34px", "42px", "50px"];
-const headingThreeFontSizes = ["20px", "24px", "28px", "32px"];
+const headingThreeFontSizes = ["18px", "24px", "28px", "32px"];
 
 export const HeaderOne = ({ children, ...props }) => (
   <Heading as="h1" fontWeight="bold" fontSize={headingOneFontSizes} {...props}>

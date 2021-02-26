@@ -18,12 +18,12 @@ const Contact = () => (
       Contact
     </HeaderTwo>
 
-    <Text paddingX={12}>
+    <Text paddingX={12} height={56}>
       I'm available for hire, and I'd love to speak with you about your web
       development needs.
     </Text>
 
-    <Flex width="28rem" justifyContent="space-around">
+    <Flex width={["20rem", "28rem"]} justifyContent="space-around">
       <Link href="mailto:jaredjgebel@gmail.com" isExternal>
         <IconButton
           size="lg"
