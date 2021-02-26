@@ -7,9 +7,12 @@ import {
   Flex,
   Text,
   Heading,
+  IconButton,
   Image,
   Link,
 } from "@chakra-ui/react";
+
+import GithubIcon from "../icons/github/Github";
 
 const Project = ({ project }) => {
   const {
@@ -83,6 +86,11 @@ const Project = ({ project }) => {
             })}
           </>
         )}
+        <Flex justifyContent="center" mt={4}>
+          <Link href={github} isExternal>
+            <IconButton size="lg" icon={<GithubIcon boxSize={12} />} />
+          </Link>
+        </Flex>
       </AccordionPanel>
     </AccordionItem>
   );

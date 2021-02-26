@@ -47,7 +47,7 @@
       { "name": "Next.js", "link": "https://nextjs.org/" },
       { "name": "Framer Motion", "link": "https://www.framer.com/motion/" }
     ],
-    "github": "https://github.com/jaredjgebel/practice-jeopardy",
+    "github": "https://github.com/jaredjgebel/practice-jeopardy-next",
     "demos": [
       {
         "link": "https://practice-jeopardy-next.vercel.app/",
