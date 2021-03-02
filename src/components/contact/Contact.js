@@ -13,12 +13,13 @@ const Contact = () => (
     color="whitesmoke"
     justifyContent="space-around"
     alignItems="center"
+    padding={8}
   >
-    <HeaderTwo textAlign="center" paddingY={12}>
+    <HeaderTwo textAlign="center" padding={12}>
       Contact
     </HeaderTwo>
 
-    <Text paddingX={12} height={56}>
+    <Text paddingX={12}>
       I'm available for hire, and I'd love to speak with you about your web
       development needs.
     </Text>
