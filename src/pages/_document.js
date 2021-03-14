@@ -17,6 +17,7 @@ export default class Document extends NextDocument {
           />
 
           {/* Open Graph meta tags for social media */}
+          <meta property="og:url" content="https://www.jaredjgebel.com/" />
           <meta
             property="og:title"
             content="Jared Gebel - Web Developer Portfolio"
@@ -27,11 +28,11 @@ export default class Document extends NextDocument {
           />
           <meta
             name="image"
-            property="og:image:secure"
+            property="og:image"
             content="https://photos.app.goo.gl/fXXXmQpJJbjcnofc9"
           />
           <meta property="og:image:width" content="1185" />
-          <meta property="og:image:height" content="630" />
+          <meta property="og:image:length" content="630" />
           <meta property="og:type" content="website" />
         </Head>
         <body>
