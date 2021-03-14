@@ -19,13 +19,16 @@ export default class Document extends NextDocument {
           {/* Open Graph meta tags for social media */}
           <meta
             property="og:title"
-            content="Jared Gebel's web developer portfolio"
+            content="Jared Gebel - Web Developer Portfolio"
           />
           <meta
             property="og:description"
             content="Web developer portfolio for Jared Gebel. Includes examples of web applications built in React, Express, and Nextjs."
           />
-          <meta property="og:image" content="/portfolio-screenshot.jpg" />
+          <meta
+            property="og:image"
+            content="https://photos.app.goo.gl/fXXXmQpJJbjcnofc9"
+          />
           <meta property="og:type" content="website" />
         </Head>
         <body>
