@@ -26,6 +26,7 @@ export default class Document extends NextDocument {
             content="Web developer portfolio for Jared Gebel. Includes examples of web applications built in React, Express, and Nextjs."
           />
           <meta
+            name="image"
             property="og:image"
             content="https://photos.app.goo.gl/fXXXmQpJJbjcnofc9"
           />
