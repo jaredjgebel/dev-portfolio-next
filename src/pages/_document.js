@@ -29,7 +29,7 @@ export default class Document extends NextDocument {
           <meta
             name="image"
             property="og:image"
-            content="https://photos.app.goo.gl/fXXXmQpJJbjcnofc9"
+            content="https://i.ibb.co/C5KvH8G/portfolio-screenshot.png"
           />
           <meta property="og:image:width" content="1185" />
           <meta property="og:image:length" content="630" />
